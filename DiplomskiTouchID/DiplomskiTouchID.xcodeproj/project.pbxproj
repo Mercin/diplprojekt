@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42D542111BECAEC800BE54DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D542101BECAEC800BE54DF /* main.m */; };
+		42D542141BECAEC800BE54DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D542131BECAEC800BE54DF /* AppDelegate.m */; };
+		42D542171BECAEC800BE54DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D542161BECAEC800BE54DF /* ViewController.m */; };
+		42D5421A1BECAEC800BE54DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42D542181BECAEC800BE54DF /* Main.storyboard */; };
+		42D5421C1BECAEC800BE54DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42D5421B1BECAEC800BE54DF /* Assets.xcassets */; };
+		42D5421F1BECAEC800BE54DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42D5421D1BECAEC800BE54DF /* LaunchScreen.storyboard */; };
+		42D5422A1BECAEC900BE54DF /* DiplomskiTouchIDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D542291BECAEC900BE54DF /* DiplomskiTouchIDTests.m */; };
+		42D542351BECAEC900BE54DF /* DiplomskiTouchIDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D542341BECAEC900BE54DF /* DiplomskiTouchIDUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42D542261BECAEC800BE54DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42D542041BECAEC800BE54DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42D5420B1BECAEC800BE54DF;
+			remoteInfo = DiplomskiTouchID;
+		};
+		42D542311BECAEC900BE54DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42D542041BECAEC800BE54DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42D5420B1BECAEC800BE54DF;
+			remoteInfo = DiplomskiTouchID;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42D5420C1BECAEC800BE54DF /* DiplomskiTouchID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiplomskiTouchID.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42D542101BECAEC800BE54DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42D542121BECAEC800BE54DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		42D542131BECAEC800BE54DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42D542151BECAEC800BE54DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		42D542161BECAEC800BE54DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		42D542191BECAEC800BE54DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42D5421B1BECAEC800BE54DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42D5421E1BECAEC800BE54DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42D542201BECAEC800BE54DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42D542251BECAEC800BE54DF /* DiplomskiTouchIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiplomskiTouchIDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42D542291BECAEC900BE54DF /* DiplomskiTouchIDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiplomskiTouchIDTests.m; sourceTree = "<group>"; };
+		42D5422B1BECAEC900BE54DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42D542301BECAEC900BE54DF /* DiplomskiTouchIDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiplomskiTouchIDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42D542341BECAEC900BE54DF /* DiplomskiTouchIDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiplomskiTouchIDUITests.m; sourceTree = "<group>"; };
+		42D542361BECAEC900BE54DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42D542091BECAEC800BE54DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42D542221BECAEC800BE54DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42D5422D1BECAEC900BE54DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42D542031BECAEC800BE54DF = {
+			isa = PBXGroup;
+			children = (
+				42D5420E1BECAEC800BE54DF /* DiplomskiTouchID */,
+				42D542281BECAEC900BE54DF /* DiplomskiTouchIDTests */,
+				42D542331BECAEC900BE54DF /* DiplomskiTouchIDUITests */,
+				42D5420D1BECAEC800BE54DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42D5420D1BECAEC800BE54DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42D5420C1BECAEC800BE54DF /* DiplomskiTouchID.app */,
+				42D542251BECAEC800BE54DF /* DiplomskiTouchIDTests.xctest */,
+				42D542301BECAEC900BE54DF /* DiplomskiTouchIDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42D5420E1BECAEC800BE54DF /* DiplomskiTouchID */ = {
+			isa = PBXGroup;
+			children = (
+				42D542121BECAEC800BE54DF /* AppDelegate.h */,
+				42D542131BECAEC800BE54DF /* AppDelegate.m */,
+				42D542151BECAEC800BE54DF /* ViewController.h */,
+				42D542161BECAEC800BE54DF /* ViewController.m */,
+				42D542181BECAEC800BE54DF /* Main.storyboard */,
+				42D5421B1BECAEC800BE54DF /* Assets.xcassets */,
+				42D5421D1BECAEC800BE54DF /* LaunchScreen.storyboard */,
+				42D542201BECAEC800BE54DF /* Info.plist */,
+				42D5420F1BECAEC800BE54DF /* Supporting Files */,
+			);
+			path = DiplomskiTouchID;
+			sourceTree = "<group>";
+		};
+		42D5420F1BECAEC800BE54DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42D542101BECAEC800BE54DF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42D542281BECAEC900BE54DF /* DiplomskiTouchIDTests */ = {
+			isa = PBXGroup;
+			children = (
+				42D542291BECAEC900BE54DF /* DiplomskiTouchIDTests.m */,
+				42D5422B1BECAEC900BE54DF /* Info.plist */,
+			);
+			path = DiplomskiTouchIDTests;
+			sourceTree = "<group>";
+		};
+		42D542331BECAEC900BE54DF /* DiplomskiTouchIDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42D542341BECAEC900BE54DF /* DiplomskiTouchIDUITests.m */,
+				42D542361BECAEC900BE54DF /* Info.plist */,
+			);
+			path = DiplomskiTouchIDUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42D5420B1BECAEC800BE54DF /* DiplomskiTouchID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42D542391BECAEC900BE54DF /* Build configuration list for PBXNativeTarget "DiplomskiTouchID" */;
+			buildPhases = (
+				42D542081BECAEC800BE54DF /* Sources */,
+				42D542091BECAEC800BE54DF /* Frameworks */,
+				42D5420A1BECAEC800BE54DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiplomskiTouchID;
+			productName = DiplomskiTouchID;
+			productReference = 42D5420C1BECAEC800BE54DF /* DiplomskiTouchID.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42D542241BECAEC800BE54DF /* DiplomskiTouchIDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42D5423C1BECAEC900BE54DF /* Build configuration list for PBXNativeTarget "DiplomskiTouchIDTests" */;
+			buildPhases = (
+				42D542211BECAEC800BE54DF /* Sources */,
+				42D542221BECAEC800BE54DF /* Frameworks */,
+				42D542231BECAEC800BE54DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42D542271BECAEC800BE54DF /* PBXTargetDependency */,
+			);
+			name = DiplomskiTouchIDTests;
+			productName = DiplomskiTouchIDTests;
+			productReference = 42D542251BECAEC800BE54DF /* DiplomskiTouchIDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42D5422F1BECAEC900BE54DF /* DiplomskiTouchIDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42D5423F1BECAEC900BE54DF /* Build configuration list for PBXNativeTarget "DiplomskiTouchIDUITests" */;
+			buildPhases = (
+				42D5422C1BECAEC900BE54DF /* Sources */,
+				42D5422D1BECAEC900BE54DF /* Frameworks */,
+				42D5422E1BECAEC900BE54DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42D542321BECAEC900BE54DF /* PBXTargetDependency */,
+			);
+			name = DiplomskiTouchIDUITests;
+			productName = DiplomskiTouchIDUITests;
+			productReference = 42D542301BECAEC900BE54DF /* DiplomskiTouchIDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42D542041BECAEC800BE54DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Infinum;
+				TargetAttributes = {
+					42D5420B1BECAEC800BE54DF = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					42D542241BECAEC800BE54DF = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 42D5420B1BECAEC800BE54DF;
+					};
+					42D5422F1BECAEC900BE54DF = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 42D5420B1BECAEC800BE54DF;
+					};
+				};
+			};
+			buildConfigurationList = 42D542071BECAEC800BE54DF /* Build configuration list for PBXProject "DiplomskiTouchID" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42D542031BECAEC800BE54DF;
+			productRefGroup = 42D5420D1BECAEC800BE54DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42D5420B1BECAEC800BE54DF /* DiplomskiTouchID */,
+				42D542241BECAEC800BE54DF /* DiplomskiTouchIDTests */,
+				42D5422F1BECAEC900BE54DF /* DiplomskiTouchIDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42D5420A1BECAEC800BE54DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D5421F1BECAEC800BE54DF /* LaunchScreen.storyboard in Resources */,
+				42D5421C1BECAEC800BE54DF /* Assets.xcassets in Resources */,
+				42D5421A1BECAEC800BE54DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42D542231BECAEC800BE54DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42D5422E1BECAEC900BE54DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42D542081BECAEC800BE54DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D542171BECAEC800BE54DF /* ViewController.m in Sources */,
+				42D542141BECAEC800BE54DF /* AppDelegate.m in Sources */,
+				42D542111BECAEC800BE54DF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42D542211BECAEC800BE54DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D5422A1BECAEC900BE54DF /* DiplomskiTouchIDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42D5422C1BECAEC900BE54DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D542351BECAEC900BE54DF /* DiplomskiTouchIDUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42D542271BECAEC800BE54DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42D5420B1BECAEC800BE54DF /* DiplomskiTouchID */;
+			targetProxy = 42D542261BECAEC800BE54DF /* PBXContainerItemProxy */;
+		};
+		42D542321BECAEC900BE54DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42D5420B1BECAEC800BE54DF /* DiplomskiTouchID */;
+			targetProxy = 42D542311BECAEC900BE54DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42D542181BECAEC800BE54DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42D542191BECAEC800BE54DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42D5421D1BECAEC800BE54DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42D5421E1BECAEC800BE54DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42D542371BECAEC900BE54DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		42D542381BECAEC900BE54DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42D5423A1BECAEC900BE54DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DiplomskiTouchID/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = diplomski.DiplomskiTouchID;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		42D5423B1BECAEC900BE54DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DiplomskiTouchID/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = diplomski.DiplomskiTouchID;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		42D5423D1BECAEC900BE54DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DiplomskiTouchIDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = diplomski.DiplomskiTouchIDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiplomskiTouchID.app/DiplomskiTouchID";
+			};
+			name = Debug;
+		};
+		42D5423E1BECAEC900BE54DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DiplomskiTouchIDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = diplomski.DiplomskiTouchIDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiplomskiTouchID.app/DiplomskiTouchID";
+			};
+			name = Release;
+		};
+		42D542401BECAEC900BE54DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DiplomskiTouchIDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = diplomski.DiplomskiTouchIDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DiplomskiTouchID;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		42D542411BECAEC900BE54DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DiplomskiTouchIDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = diplomski.DiplomskiTouchIDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DiplomskiTouchID;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42D542071BECAEC800BE54DF /* Build configuration list for PBXProject "DiplomskiTouchID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42D542371BECAEC900BE54DF /* Debug */,
+				42D542381BECAEC900BE54DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42D542391BECAEC900BE54DF /* Build configuration list for PBXNativeTarget "DiplomskiTouchID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42D5423A1BECAEC900BE54DF /* Debug */,
+				42D5423B1BECAEC900BE54DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42D5423C1BECAEC900BE54DF /* Build configuration list for PBXNativeTarget "DiplomskiTouchIDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42D5423D1BECAEC900BE54DF /* Debug */,
+				42D5423E1BECAEC900BE54DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42D5423F1BECAEC900BE54DF /* Build configuration list for PBXNativeTarget "DiplomskiTouchIDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42D542401BECAEC900BE54DF /* Debug */,
+				42D542411BECAEC900BE54DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42D542041BECAEC800BE54DF /* Project object */;
+}
