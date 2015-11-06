@@ -17,10 +17,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4lp-aZ-6nj">
-                                <rect key="frame" x="210" y="176" width="181" height="98"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4lp-aZ-6nj">
+                                <rect key="frame" x="231" y="176" width="140" height="100"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.19215686269999999" green="0.56078431370000004" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="FfT-DI-QeH"/>
+                                    <constraint firstAttribute="width" constant="140" id="IGs-Vu-4y2"/>
+                                </constraints>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -31,6 +35,10 @@
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4lp-aZ-6nj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GBN-rh-qWS"/>
+                            <constraint firstItem="4lp-aZ-6nj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="156" id="lWd-oh-6eE"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="loginButton" destination="4lp-aZ-6nj" id="om3-vH-TdW"/>
