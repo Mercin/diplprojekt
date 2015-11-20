@@ -7,8 +7,7 @@
 //
 
 #import "StringListViewController.h"
-#import 
-
+#import <Valet/Valet.h>
 
 @interface StringListViewController ()
 
@@ -20,6 +19,23 @@ static NSString *serviceName = @"diplomski.DiplomskiTouchID";
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    VALValet *myValet = [[VALValet alloc] initWithIdentifier:@"Mirko" accessibility:VALAccessibilityWhenUnlocked];
+    
+    NSString *const username = @"List";
+    NSArray *germanMakes = @[@"Mercedes-Benz", @"BMW", @"Porsche",
+                             @"Opel", @"Volkswagen", @"Audi"];
+
+    NSData *archiveArray = [NSKeyedArchiver archivedDataWithRootObject:germanMakes];
+    [myValet setObject:archiveArray forKey:username];
+    
+    NSData *data =  [myValet objectForKey:username];
+    NSArray *array = [NSKeyedUnarchiver unarchiveObjectWithData:data];
+    NSString *const myLuggageCombination = array[2];
+    
+    self.passField.text = myLuggageCombination;
+    
+
 }
 
 - (void)didReceiveMemoryWarning {

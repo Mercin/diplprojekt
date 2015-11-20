@@ -10,4 +10,5 @@
 
 @interface StringListViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *passField;
 @end
