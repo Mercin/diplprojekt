@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23B1931616F5F5BD3E2EBD27359613EE /* VALValet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFEED5A77CE8B81D652FC6D578DD370 /* VALValet.m */; };
+		272137223C9BC48867DF28E89C3D3715 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FA6CD62EB7A9C85C7DBBA20924D70A /* Security.framework */; };
+		50BB8B80B6AA91DD3352BD461B06430C /* Valet.h in Headers */ = {isa = PBXBuildFile; fileRef = ABED4B3472599C30AB85F83ABC91476E /* Valet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77616486F8B66E2CE0965756F6E00DF3 /* ValetDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DEB5AB0DF990A7C9FA2430E1FD31342 /* ValetDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89F1260BEF7B9F0912D80F908E477AF3 /* VALSynchronizableValet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC83DA07DFB51EAE5D09EF0F458A084 /* VALSynchronizableValet.m */; };
+		8D15558C7DF6DB06D0F31297DDDDABEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0307982621563C439755B9BC0ED60A1A /* Foundation.framework */; };
+		92AA017C84F0425A7533509DC745C0CB /* VALValet.h in Headers */ = {isa = PBXBuildFile; fileRef = CB80C91F074357F382A82863396E455F /* VALValet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEB43BE7E4FB203D5083055888A78B15 /* Pods-DiplomskiTouchID-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 108716936FEF57AFE571094367E70498 /* Pods-DiplomskiTouchID-dummy.m */; };
+		B53A4854118085AC6457DE019B0FA490 /* Valet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7967F23F841478DF3F77A9D19605FD /* Valet-dummy.m */; };
+		CABE40F3BF157F9C025A95FC7DAF3524 /* VALSynchronizableValet.h in Headers */ = {isa = PBXBuildFile; fileRef = 7724C6BA3280930F005FD7E96A92E30D /* VALSynchronizableValet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF64CAFB94B81A313D742EEEC8FD5E37 /* VALValet_Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 7017CB279BCDD7DD95E1A6E30B3F1892 /* VALValet_Protected.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0648A312BE7466D042C3BA0C1AA0A65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0307982621563C439755B9BC0ED60A1A /* Foundation.framework */; };
+		E392D1D2F112E4557C5500FA0605E0B7 /* VALSecureEnclaveValet.h in Headers */ = {isa = PBXBuildFile; fileRef = 366F8529FB659E1F68E26C3D8B514E88 /* VALSecureEnclaveValet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F619F69EDE2E1639E83F65063F0EB3DD /* VALSecureEnclaveValet.m in Sources */ = {isa = PBXBuildFile; fileRef = A79321E9EDA6B82C268AB58064B90E87 /* VALSecureEnclaveValet.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E510F423AAD58B9CB1D21461A45AA090 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A727A2C1DC46338B57B1A662FBF92CA;
+			remoteInfo = Valet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0307982621563C439755B9BC0ED60A1A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		108716936FEF57AFE571094367E70498 /* Pods-DiplomskiTouchID-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DiplomskiTouchID-dummy.m"; sourceTree = "<group>"; };
+		1D7EB5A244625C5A5540FC089DBB5AC9 /* libPods-DiplomskiTouchID.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DiplomskiTouchID.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2597D5203C18679E4EAF88FBC166532C /* Valet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Valet.xcconfig; sourceTree = "<group>"; };
+		2DEB5AB0DF990A7C9FA2430E1FD31342 /* ValetDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ValetDefines.h; path = Other/ValetDefines.h; sourceTree = "<group>"; };
+		2EC83DA07DFB51EAE5D09EF0F458A084 /* VALSynchronizableValet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VALSynchronizableValet.m; path = Valet/VALSynchronizableValet.m; sourceTree = "<group>"; };
+		30A89598B2771EF2FACA8F42FFEAED59 /* Pods-DiplomskiTouchID-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DiplomskiTouchID-frameworks.sh"; sourceTree = "<group>"; };
+		337BBA374195F1DD56470C314F694C9D /* libValet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libValet.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		366F8529FB659E1F68E26C3D8B514E88 /* VALSecureEnclaveValet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VALSecureEnclaveValet.h; path = Valet/VALSecureEnclaveValet.h; sourceTree = "<group>"; };
+		40C096573015F8098BBE3D0D3DC503C9 /* Pods-DiplomskiTouchID-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DiplomskiTouchID-acknowledgements.plist"; sourceTree = "<group>"; };
+		4D0CD9BEF41DAA9E592A3C74C73C7FAF /* Valet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Valet-prefix.pch"; sourceTree = "<group>"; };
+		60FA6CD62EB7A9C85C7DBBA20924D70A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		68BFF5C88CFD1928286E3EE670C0EEC5 /* Pods-DiplomskiTouchID.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiplomskiTouchID.debug.xcconfig"; sourceTree = "<group>"; };
+		7017CB279BCDD7DD95E1A6E30B3F1892 /* VALValet_Protected.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VALValet_Protected.h; path = Valet/VALValet_Protected.h; sourceTree = "<group>"; };
+		70C1870A0F5E6753D91C2DE21EA70CCE /* Pods-DiplomskiTouchID-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DiplomskiTouchID-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7724C6BA3280930F005FD7E96A92E30D /* VALSynchronizableValet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VALSynchronizableValet.h; path = Valet/VALSynchronizableValet.h; sourceTree = "<group>"; };
+		9BFEED5A77CE8B81D652FC6D578DD370 /* VALValet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VALValet.m; path = Valet/VALValet.m; sourceTree = "<group>"; };
+		9E38E144630E619BC16747FDE82338BA /* Pods-DiplomskiTouchID-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DiplomskiTouchID-resources.sh"; sourceTree = "<group>"; };
+		A79321E9EDA6B82C268AB58064B90E87 /* VALSecureEnclaveValet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VALSecureEnclaveValet.m; path = Valet/VALSecureEnclaveValet.m; sourceTree = "<group>"; };
+		ABED4B3472599C30AB85F83ABC91476E /* Valet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Valet.h; path = Valet/Valet.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CB80C91F074357F382A82863396E455F /* VALValet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VALValet.h; path = Valet/VALValet.h; sourceTree = "<group>"; };
+		F7E5664407DA461A035F40F31EFC303C /* Pods-DiplomskiTouchID.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiplomskiTouchID.release.xcconfig"; sourceTree = "<group>"; };
+		FF7967F23F841478DF3F77A9D19605FD /* Valet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Valet-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4678B7448445CB65A5758D07F722AB04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15558C7DF6DB06D0F31297DDDDABEF /* Foundation.framework in Frameworks */,
+				272137223C9BC48867DF28E89C3D3715 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F97DE1588E79A64D1C4553809537BD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0648A312BE7466D042C3BA0C1AA0A65 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A86A7991AF0B723B7571D408852AEBF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52EC64B0079EE7F2CCBB4591CF001B72 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9751E44F891F68E46D119DD640AE86D /* Pods-DiplomskiTouchID */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		59EFA59FCD244B5933FE018C9B4A34C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D7EB5A244625C5A5540FC089DBB5AC9 /* libPods-DiplomskiTouchID.a */,
+				337BBA374195F1DD56470C314F694C9D /* libValet.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A86A7991AF0B723B7571D408852AEBF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0307982621563C439755B9BC0ED60A1A /* Foundation.framework */,
+				60FA6CD62EB7A9C85C7DBBA20924D70A /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		70BC0C0CDC309153CBB7621E064FF4C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB874516180D05D39E625CBA058E74F7 /* Valet */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				70BC0C0CDC309153CBB7621E064FF4C9 /* Pods */,
+				59EFA59FCD244B5933FE018C9B4A34C6 /* Products */,
+				52EC64B0079EE7F2CCBB4591CF001B72 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		C9751E44F891F68E46D119DD640AE86D /* Pods-DiplomskiTouchID */ = {
+			isa = PBXGroup;
+			children = (
+				70C1870A0F5E6753D91C2DE21EA70CCE /* Pods-DiplomskiTouchID-acknowledgements.markdown */,
+				40C096573015F8098BBE3D0D3DC503C9 /* Pods-DiplomskiTouchID-acknowledgements.plist */,
+				108716936FEF57AFE571094367E70498 /* Pods-DiplomskiTouchID-dummy.m */,
+				30A89598B2771EF2FACA8F42FFEAED59 /* Pods-DiplomskiTouchID-frameworks.sh */,
+				9E38E144630E619BC16747FDE82338BA /* Pods-DiplomskiTouchID-resources.sh */,
+				68BFF5C88CFD1928286E3EE670C0EEC5 /* Pods-DiplomskiTouchID.debug.xcconfig */,
+				F7E5664407DA461A035F40F31EFC303C /* Pods-DiplomskiTouchID.release.xcconfig */,
+			);
+			name = "Pods-DiplomskiTouchID";
+			path = "Target Support Files/Pods-DiplomskiTouchID";
+			sourceTree = "<group>";
+		};
+		CAB0E56F2CD89B30C4C192AF748CFA02 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2597D5203C18679E4EAF88FBC166532C /* Valet.xcconfig */,
+				FF7967F23F841478DF3F77A9D19605FD /* Valet-dummy.m */,
+				4D0CD9BEF41DAA9E592A3C74C73C7FAF /* Valet-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Valet";
+			sourceTree = "<group>";
+		};
+		FB874516180D05D39E625CBA058E74F7 /* Valet */ = {
+			isa = PBXGroup;
+			children = (
+				ABED4B3472599C30AB85F83ABC91476E /* Valet.h */,
+				2DEB5AB0DF990A7C9FA2430E1FD31342 /* ValetDefines.h */,
+				366F8529FB659E1F68E26C3D8B514E88 /* VALSecureEnclaveValet.h */,
+				A79321E9EDA6B82C268AB58064B90E87 /* VALSecureEnclaveValet.m */,
+				7724C6BA3280930F005FD7E96A92E30D /* VALSynchronizableValet.h */,
+				2EC83DA07DFB51EAE5D09EF0F458A084 /* VALSynchronizableValet.m */,
+				CB80C91F074357F382A82863396E455F /* VALValet.h */,
+				9BFEED5A77CE8B81D652FC6D578DD370 /* VALValet.m */,
+				7017CB279BCDD7DD95E1A6E30B3F1892 /* VALValet_Protected.h */,
+				CAB0E56F2CD89B30C4C192AF748CFA02 /* Support Files */,
+			);
+			path = Valet;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		24627C50B3ECB877156072D0FDF8EF3D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50BB8B80B6AA91DD3352BD461B06430C /* Valet.h in Headers */,
+				77616486F8B66E2CE0965756F6E00DF3 /* ValetDefines.h in Headers */,
+				E392D1D2F112E4557C5500FA0605E0B7 /* VALSecureEnclaveValet.h in Headers */,
+				CABE40F3BF157F9C025A95FC7DAF3524 /* VALSynchronizableValet.h in Headers */,
+				92AA017C84F0425A7533509DC745C0CB /* VALValet.h in Headers */,
+				DF64CAFB94B81A313D742EEEC8FD5E37 /* VALValet_Protected.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2F3D235D3024BF98FF1BDA42C5A5A360 /* Pods-DiplomskiTouchID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E52840BC356837711BCCC3F17504B260 /* Build configuration list for PBXNativeTarget "Pods-DiplomskiTouchID" */;
+			buildPhases = (
+				DD06417FF4AB10B7D3D42119D799980F /* Sources */,
+				7F97DE1588E79A64D1C4553809537BD5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FEA87F9C0CE0538C78018890E8B0214 /* PBXTargetDependency */,
+			);
+			name = "Pods-DiplomskiTouchID";
+			productName = "Pods-DiplomskiTouchID";
+			productReference = 1D7EB5A244625C5A5540FC089DBB5AC9 /* libPods-DiplomskiTouchID.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3A727A2C1DC46338B57B1A662FBF92CA /* Valet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 452ACD4F02927C88CDDEF557069CB761 /* Build configuration list for PBXNativeTarget "Valet" */;
+			buildPhases = (
+				F4FFA3300553B21368199C5F431135C5 /* Sources */,
+				4678B7448445CB65A5758D07F722AB04 /* Frameworks */,
+				24627C50B3ECB877156072D0FDF8EF3D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Valet;
+			productName = Valet;
+			productReference = 337BBA374195F1DD56470C314F694C9D /* libValet.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 59EFA59FCD244B5933FE018C9B4A34C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F3D235D3024BF98FF1BDA42C5A5A360 /* Pods-DiplomskiTouchID */,
+				3A727A2C1DC46338B57B1A662FBF92CA /* Valet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD06417FF4AB10B7D3D42119D799980F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB43BE7E4FB203D5083055888A78B15 /* Pods-DiplomskiTouchID-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4FFA3300553B21368199C5F431135C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53A4854118085AC6457DE019B0FA490 /* Valet-dummy.m in Sources */,
+				F619F69EDE2E1639E83F65063F0EB3DD /* VALSecureEnclaveValet.m in Sources */,
+				89F1260BEF7B9F0912D80F908E477AF3 /* VALSynchronizableValet.m in Sources */,
+				23B1931616F5F5BD3E2EBD27359613EE /* VALValet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FEA87F9C0CE0538C78018890E8B0214 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Valet;
+			target = 3A727A2C1DC46338B57B1A662FBF92CA /* Valet */;
+			targetProxy = E510F423AAD58B9CB1D21461A45AA090 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4C206F9C9754DF35E6377CC462AF12D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68BFF5C88CFD1928286E3EE670C0EEC5 /* Pods-DiplomskiTouchID.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D83EBAD8D93D4B892544E094E45AE6A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2597D5203C18679E4EAF88FBC166532C /* Valet.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Valet/Valet-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DF1E1B8105984BFBEBB8F1E94C456297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7E5664407DA461A035F40F31EFC303C /* Pods-DiplomskiTouchID.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FF7C1208629D7B5D7594134915197E2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2597D5203C18679E4EAF88FBC166532C /* Valet.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Valet/Valet-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */,
+				74857149DC1E0D599B8A01A78349A926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		452ACD4F02927C88CDDEF557069CB761 /* Build configuration list for PBXNativeTarget "Valet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7C1208629D7B5D7594134915197E2B /* Debug */,
+				D83EBAD8D93D4B892544E094E45AE6A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E52840BC356837711BCCC3F17504B260 /* Build configuration list for PBXNativeTarget "Pods-DiplomskiTouchID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C206F9C9754DF35E6377CC462AF12D4 /* Debug */,
+				DF1E1B8105984BFBEBB8F1E94C456297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

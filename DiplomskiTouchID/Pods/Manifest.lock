@@ -1,0 +1,10 @@
+PODS:
+  - Valet (2.0.6)
+
+DEPENDENCIES:
+  - Valet (~> 2.0)
+
+SPEC CHECKSUMS:
+  Valet: 435ce71d7514ed407764a44b77591f7b0e43e122
+
+COCOAPODS: 0.39.0

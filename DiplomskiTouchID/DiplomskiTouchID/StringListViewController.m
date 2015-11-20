@@ -7,12 +7,15 @@
 //
 
 #import "StringListViewController.h"
+#import 
+
 
 @interface StringListViewController ()
 
 @end
 
 @implementation StringListViewController
+static NSString *serviceName = @"diplomski.DiplomskiTouchID";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -23,6 +26,9 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+
 
 /*
 #pragma mark - Navigation
