@@ -15,6 +15,7 @@
 		42D5421F1BECAEC800BE54DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42D5421D1BECAEC800BE54DF /* LaunchScreen.storyboard */; };
 		42D5422A1BECAEC900BE54DF /* DiplomskiTouchIDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D542291BECAEC900BE54DF /* DiplomskiTouchIDTests.m */; };
 		42D542351BECAEC900BE54DF /* DiplomskiTouchIDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D542341BECAEC900BE54DF /* DiplomskiTouchIDUITests.m */; };
+		42D542441BFF535800BE54DF /* StringListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D542431BFF535700BE54DF /* StringListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		42D542301BECAEC900BE54DF /* DiplomskiTouchIDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiplomskiTouchIDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42D542341BECAEC900BE54DF /* DiplomskiTouchIDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiplomskiTouchIDUITests.m; sourceTree = "<group>"; };
 		42D542361BECAEC900BE54DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42D542421BFF535700BE54DF /* StringListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringListViewController.h; sourceTree = "<group>"; };
+		42D542431BFF535700BE54DF /* StringListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		42D5420E1BECAEC800BE54DF /* DiplomskiTouchID */ = {
 			isa = PBXGroup;
 			children = (
+				42D542421BFF535700BE54DF /* StringListViewController.h */,
+				42D542431BFF535700BE54DF /* StringListViewController.m */,
 				42D542121BECAEC800BE54DF /* AppDelegate.h */,
 				42D542131BECAEC800BE54DF /* AppDelegate.m */,
 				42D542151BECAEC800BE54DF /* ViewController.h */,
@@ -273,6 +278,7 @@
 				42D542171BECAEC800BE54DF /* ViewController.m in Sources */,
 				42D542141BECAEC800BE54DF /* AppDelegate.m in Sources */,
 				42D542111BECAEC800BE54DF /* main.m in Sources */,
+				42D542441BFF535800BE54DF /* StringListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DiplomskiTouchID/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = diplomski.DiplomskiTouchID;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DiplomskiTouchID/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = diplomski.DiplomskiTouchID;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +504,7 @@
 				42D5423B1BECAEC900BE54DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42D5423C1BECAEC900BE54DF /* Build configuration list for PBXNativeTarget "DiplomskiTouchIDTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +513,7 @@
 				42D5423E1BECAEC900BE54DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42D5423F1BECAEC900BE54DF /* Build configuration list for PBXNativeTarget "DiplomskiTouchIDUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +522,7 @@
 				42D542411BECAEC900BE54DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
