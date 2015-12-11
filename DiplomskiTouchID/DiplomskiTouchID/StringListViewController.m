@@ -12,7 +12,9 @@
 @interface StringListViewController () <UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic, weak) IBOutlet UITableView *tableView;
-@property (nonatomic, strong) NSArray *fetchedStrings;
+@property (nonatomic, strong) NSMutableArray *fetchedStrings;
+@property (nonatomic, strong) VALValet *myValet;
+@property (nonatomic, weak) NSString *username;
 
 @end
 
@@ -26,15 +28,15 @@ static NSString *serviceName = @"diplomski.DiplomskiTouchID";
     UIBarButtonItem *anotherButton = [[UIBarButtonItem alloc] initWithTitle:@"Add" style:UIBarButtonItemStylePlain target:self action:@selector(openAddPage)];
     self.navigationItem.rightBarButtonItem = anotherButton;
     
-    VALValet *myValet = [[VALValet alloc] initWithIdentifier:@"Mirko" accessibility:VALAccessibilityWhenUnlocked];
+    self.myValet = [[VALValet alloc] initWithIdentifier:@"Mirko" accessibility:VALAccessibilityWhenUnlocked];
     
     self.title = @"Secure data";
     
     self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
-    NSString *const username = @"List";
+    self.username = @"List";
     
-    NSData *data = [myValet objectForKey:username];
-    self.fetchedStrings = [NSKeyedUnarchiver unarchiveObjectWithData:data];
+    NSData *data = [self.myValet objectForKey:self.username];
+    self.fetchedStrings = [NSMutableArray arrayWithArray:[NSKeyedUnarchiver unarchiveObjectWithData:data]];
 
     
 //    NSString *const username = @"List";
@@ -54,7 +56,12 @@ static NSString *serviceName = @"diplomski.DiplomskiTouchID";
 }
 
 -(void)openAddPage {
-    NSLog(@"IM ALIIIIVEEEE");
+    //NSLog(@"IM ALIIIIVEEEE");
+    AddNewStringViewController *viewControllerB = [self.storyboard instantiateViewControllerWithIdentifier:@"AddNewString"];
+    viewControllerB.delegate = self;
+    
+    [[self navigationController] pushViewController:viewControllerB animated:YES];
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -92,6 +99,22 @@ static NSString *serviceName = @"diplomski.DiplomskiTouchID";
 //    [self.navigationController pushViewController:vc animated:YES];
 }
 
+- (void)addItemViewController:(AddNewStringViewController *)controller didFinishEnteringItem:(NSString *)item
+{
+    NSLog(@"This was returned from ViewControllerB %@",item);
+    
+    if ([self.fetchedStrings containsObject:item]) {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Warning!" message:@"The string you entered already exists in the keychain!" delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil];
+        
+    }
+    else{
+        [self.fetchedStrings addObject:item];
+        [self.myValet removeObjectForKey:self.username];
+         NSData *archiveArray = [NSKeyedArchiver archivedDataWithRootObject:self.fetchedStrings];
+         [self.myValet setObject:archiveArray forKey:self.username];
+        [self.tableView reloadData];
+    }
+}
 
 /*
 #pragma mark - Navigation

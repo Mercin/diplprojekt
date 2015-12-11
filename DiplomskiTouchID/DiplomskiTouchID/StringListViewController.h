@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AddNewStringViewController.h"
 
-@interface StringListViewController : UIViewController
+@interface StringListViewController : UIViewController <ViewControllerBDelegate>
 
 @end

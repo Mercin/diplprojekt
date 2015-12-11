@@ -65,6 +65,59 @@
             </objects>
             <point key="canvasLocation" x="412" y="-49"/>
         </scene>
+        <!--Add New String View Controller-->
+        <scene sceneID="O9I-wi-fQE">
+            <objects>
+                <viewController storyboardIdentifier="AddNewString" id="Mdn-Am-0iy" customClass="AddNewStringViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xfc-oD-kSw"/>
+                        <viewControllerLayoutGuide type="bottom" id="SYi-DI-dgn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rxO-sn-T7x">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mhe-Sz-Z1X">
+                                <rect key="frame" x="129" y="285" width="343" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lQh-Lv-gsR">
+                                <rect key="frame" x="241" y="334" width="117" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="117" id="Gdr-3g-imK"/>
+                                </constraints>
+                                <state key="normal" title="Add">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="addNewInput:" destination="Mdn-Am-0iy" eventType="touchDown" id="fMU-5L-Nmt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lQh-Lv-gsR" firstAttribute="centerX" secondItem="rxO-sn-T7x" secondAttribute="centerX" id="5HG-Fv-TV0"/>
+                            <constraint firstItem="lQh-Lv-gsR" firstAttribute="top" secondItem="Mhe-Sz-Z1X" secondAttribute="bottom" constant="19" id="FCD-B2-Db5"/>
+                            <constraint firstItem="Mhe-Sz-Z1X" firstAttribute="top" secondItem="xfc-oD-kSw" secondAttribute="bottom" constant="265" id="KcT-N2-HUv"/>
+                            <constraint firstItem="Mhe-Sz-Z1X" firstAttribute="leading" secondItem="rxO-sn-T7x" secondAttribute="leading" constant="129" id="M2E-0G-p9m"/>
+                            <constraint firstAttribute="trailing" secondItem="Mhe-Sz-Z1X" secondAttribute="trailing" constant="128" id="yhR-24-Vby"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="addButton" destination="lQh-Lv-gsR" id="GMK-zP-mkA"/>
+                        <outlet property="inputTextField" destination="Mhe-Sz-Z1X" id="brs-uS-QwE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="348-gz-D06" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1104" y="-20"/>
+        </scene>
         <!--String List View Controller-->
         <scene sceneID="Acq-Jc-vbc">
             <objects>

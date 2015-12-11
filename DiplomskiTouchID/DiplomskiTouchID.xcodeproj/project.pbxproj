@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42A0B1861C1ACFC900D1A490 /* AddNewStringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A0B1851C1ACFC900D1A490 /* AddNewStringViewController.m */; };
 		42D542111BECAEC800BE54DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D542101BECAEC800BE54DF /* main.m */; };
 		42D542141BECAEC800BE54DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D542131BECAEC800BE54DF /* AppDelegate.m */; };
 		42D542171BECAEC800BE54DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D542161BECAEC800BE54DF /* ViewController.m */; };
@@ -38,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		40FBE76F6EA29331A8B34A9C /* Pods-DiplomskiTouchID.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiplomskiTouchID.release.xcconfig"; path = "Pods/Target Support Files/Pods-DiplomskiTouchID/Pods-DiplomskiTouchID.release.xcconfig"; sourceTree = "<group>"; };
+		42A0B1841C1ACFC900D1A490 /* AddNewStringViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddNewStringViewController.h; path = ../AddNewStringViewController.h; sourceTree = "<group>"; };
+		42A0B1851C1ACFC900D1A490 /* AddNewStringViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddNewStringViewController.m; path = ../AddNewStringViewController.m; sourceTree = "<group>"; };
 		42D5420C1BECAEC800BE54DF /* DiplomskiTouchID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiplomskiTouchID.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42D542101BECAEC800BE54DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		42D542121BECAEC800BE54DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -119,6 +122,8 @@
 		42D5420E1BECAEC800BE54DF /* DiplomskiTouchID */ = {
 			isa = PBXGroup;
 			children = (
+				42A0B1841C1ACFC900D1A490 /* AddNewStringViewController.h */,
+				42A0B1851C1ACFC900D1A490 /* AddNewStringViewController.m */,
 				42D542421BFF535700BE54DF /* StringListViewController.h */,
 				42D542431BFF535700BE54DF /* StringListViewController.m */,
 				42D542121BECAEC800BE54DF /* AppDelegate.h */,
@@ -351,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42D542171BECAEC800BE54DF /* ViewController.m in Sources */,
+				42A0B1861C1ACFC900D1A490 /* AddNewStringViewController.m in Sources */,
 				42D542141BECAEC800BE54DF /* AppDelegate.m in Sources */,
 				42D542111BECAEC800BE54DF /* main.m in Sources */,
 				42D542441BFF535800BE54DF /* StringListViewController.m in Sources */,
