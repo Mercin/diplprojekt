@@ -38,8 +38,8 @@
     else{
         NSString *itemToPassBack = self.inputTextField.text;
         [self.delegate addItemViewController:self didFinishEnteringItem:itemToPassBack];
-        [self.navigationController popViewControllerAnimated:YES];
     }
+        [self.navigationController popViewControllerAnimated:YES];
 }
 
 /*

@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "AddNewStringViewController.h"
+#import "EditStringViewController.h"
 
-@interface StringListViewController : UIViewController <ViewControllerBDelegate>
+@interface StringListViewController : UIViewController <ViewControllerBDelegate, EditStringViewControllerDelegate>
 
 @end

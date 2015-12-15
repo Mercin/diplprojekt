@@ -8,6 +8,7 @@
 
 #import "StringListViewController.h"
 #import <Valet/Valet.h>
+#import "EditStringViewController.h"
 
 @interface StringListViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -97,6 +98,13 @@ static NSString *serviceName = @"diplomski.DiplomskiTouchID";
 //    PostDetailsViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"PostDetails"];
 //    vc.post = post;
 //    [self.navigationController pushViewController:vc animated:YES];
+    
+    NSString *selectedString = self.fetchedStrings[indexPath.row];
+    EditStringViewController *esvc = [self.storyboard instantiateViewControllerWithIdentifier:@"EditString"];
+    esvc.passedString = selectedString;
+    esvc.delegate = self;
+    [self.navigationController pushViewController:esvc animated:YES];
+    
 }
 
 - (void)addItemViewController:(AddNewStringViewController *)controller didFinishEnteringItem:(NSString *)item
@@ -112,6 +120,22 @@ static NSString *serviceName = @"diplomski.DiplomskiTouchID";
         [self.myValet removeObjectForKey:self.username];
          NSData *archiveArray = [NSKeyedArchiver archivedDataWithRootObject:self.fetchedStrings];
          [self.myValet setObject:archiveArray forKey:self.username];
+        [self.tableView reloadData];
+    }
+}
+
+-(void)editItemViewController:(EditStringViewController *)controller didFinishEnteringItem:(NSString *)item{
+    NSLog(@"This was returned from EditStringViewController %@",item);
+    
+    if ([self.fetchedStrings containsObject:item]) {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Warning!" message:@"The string you entered already exists in the keychain!" delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil];
+        
+    }
+    else{
+        [self.fetchedStrings addObject:item];
+        [self.myValet removeObjectForKey:self.username];
+        NSData *archiveArray = [NSKeyedArchiver archivedDataWithRootObject:self.fetchedStrings];
+        [self.myValet setObject:archiveArray forKey:self.username];
         [self.tableView reloadData];
     }
 }
