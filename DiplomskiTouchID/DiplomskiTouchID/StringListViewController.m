@@ -16,6 +16,7 @@
 @property (nonatomic, strong) NSMutableArray *fetchedStrings;
 @property (nonatomic, strong) VALValet *myValet;
 @property (nonatomic, weak) NSString *username;
+@property (nonatomic) NSInteger *indexOfItem;
 
 @end
 
@@ -100,6 +101,7 @@ static NSString *serviceName = @"diplomski.DiplomskiTouchID";
 //    [self.navigationController pushViewController:vc animated:YES];
     
     NSString *selectedString = self.fetchedStrings[indexPath.row];
+    self.indexOfItem= indexPath.item;
     EditStringViewController *esvc = [self.storyboard instantiateViewControllerWithIdentifier:@"EditString"];
     esvc.passedString = selectedString;
     esvc.delegate = self;
@@ -132,7 +134,7 @@ static NSString *serviceName = @"diplomski.DiplomskiTouchID";
         
     }
     else{
-        [self.fetchedStrings addObject:item];
+        [self.fetchedStrings replaceObjectAtIndex:self.indexOfItem withObject:item];
         [self.myValet removeObjectForKey:self.username];
         NSData *archiveArray = [NSKeyedArchiver archivedDataWithRootObject:self.fetchedStrings];
         [self.myValet setObject:archiveArray forKey:self.username];
